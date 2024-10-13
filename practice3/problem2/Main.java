@@ -36,7 +36,7 @@ public class Main {
                     System.out.println("Введите год:");
                     int year = scanner.nextInt();
 
-                    System.out.println("Введите оплату:");
+                    System.out.println("Введите fee:");
                     double fee = scanner.nextDouble();
 
                     people.add(new Student(name, address, program, year, fee));
